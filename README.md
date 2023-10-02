@@ -12,7 +12,7 @@ PHP library for converting the version of PDF files (for compatibility purposes)
 
 ## Installation
 
-Run `php composer.phar require xthiago/pdf-version-converter dev-master` or add the follow lines to composer and run `composer install`:
+Run `composer require xthiago/pdf-version-converter dev-master` or add the follow lines to composer and run `composer install`:
 
 ```
 {
@@ -20,6 +20,13 @@ Run `php composer.phar require xthiago/pdf-version-converter dev-master` or add 
         "xthiago/pdf-version-converter": "dev-master"
     }
 }
+
+"repositories": [
+    ...,
+    {
+        "type": "vcs",
+        "url": "https://github.com/funcional-health/pdf-version-converter.git"
+    }
 ```
 
 ## Usage
